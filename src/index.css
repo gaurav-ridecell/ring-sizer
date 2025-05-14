@@ -7,65 +7,65 @@
 
 @layer base {
   :root {
-    --background: 342 75% 98%;
-    --foreground: 342 50% 10%;
+    --ring-sizer-background: 342 75% 98%;
+    --ring-sizer-foreground: 342 50% 10%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 342 50% 10%;
+    --ring-sizer-card: 0 0% 100%;
+    --ring-sizer-card-foreground: 342 50% 10%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 342 50% 10%;
+    --ring-sizer-popover: 0 0% 100%;
+    --ring-sizer-popover-foreground: 342 50% 10%;
 
-    --primary: 342 74% 21%;
-    --primary-foreground: 342 10% 95%;
+    --ring-sizer-primary: 342 74% 21%;
+    --ring-sizer-primary-foreground: 342 10% 95%;
 
-    --secondary: 38 65% 52%;
-    --secondary-foreground: 342 50% 10%;
+    --ring-sizer-secondary: 38 65% 52%;
+    --ring-sizer-secondary-foreground: 342 50% 10%;
 
-    --muted: 342 10% 90%;
-    --muted-foreground: 342 10% 40%;
+    --ring-sizer-muted: 342 10% 90%;
+    --ring-sizer-muted-foreground: 342 10% 40%;
 
-    --accent: 38 65% 52%;
-    --accent-foreground: 342 50% 10%;
+    --ring-sizer-accent: 38 65% 52%;
+    --ring-sizer-accent-foreground: 342 50% 10%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --ring-sizer-destructive: 0 84.2% 60.2%;
+    --ring-sizer-destructive-foreground: 210 40% 98%;
 
-    --border: 342 20% 85%;
-    --input: 342 20% 85%;
-    --ring: 342 74% 21%;
+    --ring-sizer-border: 342 20% 85%;
+    --ring-sizer-input: 342 20% 85%;
+    --ring-sizer-ring: 342 74% 21%;
 
-    --radius: 0.5rem;
+    --ring-sizer-radius: 0.5rem;
   }
 
   .dark {
-    --background: 342 60% 5%;
-    --foreground: 342 10% 95%;
+    --ring-sizer-background: 342 60% 5%;
+    --ring-sizer-foreground: 342 10% 95%;
 
-    --card: 342 60% 10%;
-    --card-foreground: 342 10% 95%;
+    --ring-sizer-card: 342 60% 10%;
+    --ring-sizer-card-foreground: 342 10% 95%;
 
-    --popover: 342 60% 10%;
-    --popover-foreground: 342 10% 95%;
+    --ring-sizer-popover: 342 60% 10%;
+    --ring-sizer-popover-foreground: 342 10% 95%;
 
-    --primary: 342 65% 70%;
-    --primary-foreground: 342 60% 10%;
+    --ring-sizer-primary: 342 65% 70%;
+    --ring-sizer-primary-foreground: 342 60% 10%;
 
-    --secondary: 38 65% 52%;
-    --secondary-foreground: 342 10% 95%;
+    --ring-sizer-secondary: 38 65% 52%;
+    --ring-sizer-secondary-foreground: 342 10% 95%;
 
-    --muted: 342 30% 20%;
-    --muted-foreground: 342 10% 60%;
+    --ring-sizer-muted: 342 30% 20%;
+    --ring-sizer-muted-foreground: 342 10% 60%;
 
-    --accent: 38 65% 52%;
-    --accent-foreground: 342 10% 95%;
+    --ring-sizer-accent: 38 65% 52%;
+    --ring-sizer-accent-foreground: 342 10% 95%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --ring-sizer-destructive: 0 62.8% 30.6%;
+    --ring-sizer-destructive-foreground: 210 40% 98%;
 
-    --border: 342 30% 25%;
-    --input: 342 30% 25%;
-    --ring: 342 65% 70%;
+    --ring-sizer-border: 342 30% 25%;
+    --ring-sizer-input: 342 30% 25%;
+    --ring-sizer-ring: 342 65% 70%;
   }
 }
 

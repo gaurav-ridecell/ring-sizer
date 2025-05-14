@@ -20,48 +20,48 @@ export default {
 		},
 		extend: {
 			colors: {
-				border: 'hsl(var(--border))',
-				input: 'hsl(var(--input))',
-				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
+				border: 'hsl(var(--ring-sizer-border))',
+				input: 'hsl(var(--ring-sizer-input))',
+				ring: 'hsl(var(--ring-sizer-ring))',
+				background: 'hsl(var(--ring-sizer-background))',
+				foreground: 'hsl(var(--ring-sizer-foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: 'hsl(var(--ring-sizer-primary))',
+					foreground: 'hsl(var(--ring-sizer-primary-foreground))'
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: 'hsl(var(--ring-sizer-secondary))',
+					foreground: 'hsl(var(--ring-sizer-secondary-foreground))'
 				},
 				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
+					DEFAULT: 'hsl(var(--ring-sizer-destructive))',
+					foreground: 'hsl(var(--ring-sizer-destructive-foreground))'
 				},
 				muted: {
-					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))'
+					DEFAULT: 'hsl(var(--ring-sizer-muted))',
+					foreground: 'hsl(var(--ring-sizer-muted-foreground))'
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					DEFAULT: 'hsl(var(--ring-sizer-accent))',
+					foreground: 'hsl(var(--ring-sizer-accent-foreground))'
 				},
 				popover: {
-					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))'
+					DEFAULT: 'hsl(var(--ring-sizer-popover))',
+					foreground: 'hsl(var(--ring-sizer-popover-foreground))'
 				},
 				card: {
-					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
+					DEFAULT: 'hsl(var(--ring-sizer-card))',
+					foreground: 'hsl(var(--ring-sizer-card-foreground))'
 				},
 				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+					DEFAULT: 'hsl(var(--ring-sizer-sidebar-background))',
+					foreground: 'hsl(var(--ring-sizer-sidebar-foreground))',
+					primary: 'hsl(var(--ring-sizer-sidebar-primary))',
+					'primary-foreground': 'hsl(var(--ring-sizer-sidebar-primary-foreground))',
+					accent: 'hsl(var(--ring-sizer-sidebar-accent))',
+					'accent-foreground': 'hsl(var(--ring-sizer-sidebar-accent-foreground))',
+					border: 'hsl(var(--ring-sizer-sidebar-border))',
+					ring: 'hsl(var(--ring-sizer-sidebar-ring))'
 				},
 				// Add custom colors for the app
 				burgundy: {
@@ -86,9 +86,9 @@ export default {
 				display: ['Playfair Display', 'serif'],
 			},
 			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
+				lg: 'var(--ring-sizer-radius)',
+				md: 'calc(var(--ring-sizer-radius) - 2px)',
+				sm: 'calc(var(--ring-sizer-radius) - 4px)'
 			},
 			keyframes: {
 				'accordion-down': {
