@@ -3,20 +3,25 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import './index.css';
 
-const renderMyApp = elementId => {
-  createRoot(document.getElementById(elementId)).render(
+// Define the render function that takes elementId and token as parameters
+const renderMyApp = (elementId: string, token: string) => {
+  const container = document.getElementById(elementId);
+
+  if (!container) {
+    console.error(`Failed to find the element with id: ${elementId}`);
+    return;
+  }
+
+  const root = createRoot(container);
+  root.render(
     <StrictMode>
-      <App />
+      <App token={token} />
     </StrictMode>
   );
 };
 
-declare global {
-  interface Window {
-    mount: (elementId: string) => void;
-  }
-}
+// Define the specific key for the window object
+const KEY = 'ring-sizer';
 
-window.mount = renderMyApp;
-
-// renderMyApp('root');
+// Expose the render function to the window object
+window[KEY] = renderMyApp;
